@@ -1,5 +1,12 @@
 #include<stdio.h>
 void main()
 {
-  printf("HELLO WORLD");
+  int a,b,s;
+  printf("HELLO ");
+  printf("Enter the first num:-");
+  scanf("%d",&a);
+  printf("Enter the second num:-");
+  scanf("%d",&b);
+  s=a+b;
+  printf("The sum of the given number is:-",s);
 }
