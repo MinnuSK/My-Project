@@ -10,5 +10,5 @@ void main()
   s=a+b;
   printf("The sum of the given number is:-",s);
   p=a*b;
-   printf("The sum of the given number is:-",p);
+  printf("The product of the given number is:-",p);
 }
