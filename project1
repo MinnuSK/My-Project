@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-  int a,b,s,p;
+  int a,b,s,p,d;
   printf("HELLO ");
   printf("Enter the first num:-");
   scanf("%d",&a);
@@ -11,4 +11,6 @@ void main()
   printf("The sum of the given number is:-",s);
   p=a*b;
   printf("The product of the given number is:-",p);
+  d=a/b;
+   printf("The quotient of the given number is:-",d);
 }
